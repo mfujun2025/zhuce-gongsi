@@ -384,3 +384,19 @@
   .sub-list a{display:flex;justify-content:space-between;gap:8px;font-size:14px;padding:9px 12px;background:var(--bg-soft);border-radius:8px;transition:.18s;color:var(--ink)}
   .sub-list a:hover{background:var(--primary-light);color:var(--primary)}
   .sub-list a time{color:var(--ink-3);font-size:12px;font-family:Consolas,monospace}
+
+  /* ---------- 城市页广告卡片组件 ---------- */
+  .ad-card{display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,var(--primary-light) 0%,#fff6ea 100%);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);padding:14px 18px;margin:0 0 24px}
+  .ad-badge{flex-shrink:0;font-size:11px;font-weight:700;letter-spacing:2px;color:#8a5a1d;background:#ffd9ae;border-radius:5px;padding:3px 8px}
+  .ad-body{flex:1;min-width:0}
+  .ad-title{font-size:15px;font-weight:700;color:var(--ink);margin:0 0 4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .ad-tagchip{font-size:11px;font-weight:600;color:var(--primary);background:#fff;border:1px solid var(--primary-light);border-radius:99px;padding:1px 9px}
+  .ad-desc{font-size:13.5px;color:var(--ink-2);margin:0;line-height:1.75}
+  .ad-cta{flex-shrink:0;background:var(--primary);color:#fff;font-size:13.5px;font-weight:600;padding:9px 18px;border-radius:8px;transition:.2s;white-space:nowrap}
+  .ad-cta:hover{background:var(--primary-dark);color:#fff}
+  @media (max-width:640px){
+    .ad-card{flex-wrap:wrap;gap:10px;padding:13px 15px}
+    .ad-body{flex:1 1 100%;order:2}
+    .ad-badge{order:1}
+    .ad-cta{order:3;width:100%;text-align:center}
+  }
