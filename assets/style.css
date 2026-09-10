@@ -392,6 +392,8 @@
   .ad-title{font-size:15px;font-weight:700;color:var(--ink);margin:0 0 4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .ad-tagchip{font-size:11px;font-weight:600;color:var(--primary);background:#fff;border:1px solid var(--primary-light);border-radius:99px;padding:1px 9px}
   .ad-desc{font-size:13.5px;color:var(--ink-2);margin:0;line-height:1.75}
+  .ad-mail{font-size:12.5px;color:var(--ink-2);margin:6px 0 0}
+  .ad-mail a{color:var(--primary);font-weight:600}
   .ad-cta{flex-shrink:0;background:var(--primary);color:#fff;font-size:13.5px;font-weight:600;padding:9px 18px;border-radius:8px;transition:.2s;white-space:nowrap}
   .ad-cta:hover{background:var(--primary-dark);color:#fff}
   @media (max-width:640px){
