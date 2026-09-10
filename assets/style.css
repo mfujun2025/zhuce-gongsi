@@ -384,6 +384,11 @@
   .sub-list a{display:flex;justify-content:space-between;gap:8px;font-size:14px;padding:9px 12px;background:var(--bg-soft);border-radius:8px;transition:.18s;color:var(--ink)}
   .sub-list a:hover{background:var(--primary-light);color:var(--primary)}
   .sub-list a time{color:var(--ink-3);font-size:12px;font-family:Consolas,monospace}
+  /* ---------- 首页置顶「完整指南」卡片（Pillar 入口） ---------- */
+  .art.feat{grid-column:1 / -1;background:linear-gradient(90deg,#f2f7ff 0%,#fff 72%);border:1px solid #cfe0ff;border-bottom:1px solid #cfe0ff;border-radius:10px;padding:14px 14px}
+  .art.feat:hover{background:linear-gradient(90deg,#e8f1ff 0%,#fff 72%)}
+  .art.feat .feat-tag{background:var(--primary);color:#fff}
+  .art.feat a{font-weight:600;color:var(--primary);white-space:normal}
 
   /* ---------- 城市页广告卡片组件 ---------- */
   .ad-card{display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,var(--primary-light) 0%,#fff6ea 100%);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);padding:14px 18px;margin:0 0 24px}
